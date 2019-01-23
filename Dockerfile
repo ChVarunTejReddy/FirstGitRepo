@@ -1,3 +1,3 @@
 FROM scratch
-
-CMD ["/First.java"]
+RUN javac First.java
+CMD java First
