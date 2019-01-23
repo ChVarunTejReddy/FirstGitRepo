@@ -1,3 +1,3 @@
-FROM scratch
-RUN javac First.java
-CMD java First
+FROM java:8
+   RUN javac First.java
+   CMD ["java", "First"]
